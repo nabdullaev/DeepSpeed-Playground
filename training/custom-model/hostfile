@@ -1,0 +1,6 @@
+# Example hostfile for DeepSpeed multi-node training
+# Format: <hostname> slots=<num_gpus>
+# Update the hostnames and GPU counts for your cluster
+worker-0 slots=8
+worker-1 slots=8
+
